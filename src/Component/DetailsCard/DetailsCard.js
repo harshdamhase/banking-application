@@ -5,7 +5,7 @@ function DetailsCards({ id, avatar, name, email, bankAccounts }) {
     <>
       <div
         className="card  mt-3"
-        style={{ width: "38rem", backgroundColor: "#F7F2CB" }}
+        style={{ width: "38rem", backgroundColor: "#A7D397" }}
       >
         <div className="p-1 text-dark">
           <div className="d-flex justify-content-evenly">
@@ -16,10 +16,10 @@ function DetailsCards({ id, avatar, name, email, bankAccounts }) {
                 alt="fsd"
                 className="mt-3"
                 style={{
-                  width: "80px",
+                  width: "70px",
                   borderRadius: "50%",
                   padding: "2px",
-                  border: "3px solid blue",
+                  border: "3px solid red",
                 }}
               />
             </div>
